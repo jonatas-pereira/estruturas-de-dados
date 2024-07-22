@@ -1,0 +1,51 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build directories
+/build/
+/bin/
+/obj/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+*.cbp
+*.make
+
+# Temporary files
+*~
+.*.swp
+.*.swo
+
+# Log files
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# CLion specific files
+/.idea/
+/cmake-build-debug/
