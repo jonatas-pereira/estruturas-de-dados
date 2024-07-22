@@ -2,12 +2,12 @@
 CC = gcc
 
 # Flags de compilação
-CFLAGS = -Iinclude -Wall -Wextra -Werror
+CFLAGS = -Isource/include -Wall -Wextra -Werror
 
 # Diretórios
-SRC_DIR = src
+SRC_DIR = source/src
 BUILD_DIR = build
-INCLUDE_DIR = include
+INCLUDE_DIR = source/include
 
 # Arquivos fonte e objeto
 SRC_FILES = $(wildcard $(SRC_DIR)/*.c)
