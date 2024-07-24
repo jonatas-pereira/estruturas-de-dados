@@ -5,9 +5,8 @@ CC = gcc
 CFLAGS = -Isource/include -Wall -Wextra -Werror
 
 # Diretórios
-SRC_DIR = source/src
+SRC_DIR = src
 BUILD_DIR = build
-INCLUDE_DIR = source/include
 
 # Arquivos fonte e objeto
 SRC_FILES = $(wildcard $(SRC_DIR)/*.c)
